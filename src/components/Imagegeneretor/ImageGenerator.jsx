@@ -17,7 +17,7 @@ const ImageGenerator = () => {
     }
 return(
     <div className="ai-image-generator">
-        <div className="header">Ai image <span>generator</span></div>
+        <div className="header">Ai Image <span>Generator</span></div>
         <div className="img-loading">
             <div className="image"><img src={imgage_url==="/"?default_image:image_url} alt="deafult" /></div>
         </div>
